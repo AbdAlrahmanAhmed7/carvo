@@ -2,6 +2,8 @@ import { motion, useScroll, useTransform } from "motion/react";
 import { Search, Calendar, MapPin, ChevronRight, Play } from "lucide-react";
 import { useRef } from "react";
 
+import heroImage from "../assets/images/hero.png";
+
 export default function Hero() {
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollY } = useScroll();
@@ -17,10 +19,9 @@ export default function Hero() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-surface/40 to-surface z-10" />
         <img 
-          src="/src/assets/images/luxury_hero_car_1779110386055.png"
+          src={heroImage}
           alt="Luxury Car Hero"
           className="w-full h-full object-cover"
-          referrerPolicy="no-referrer"
         />
       </motion.div>
 

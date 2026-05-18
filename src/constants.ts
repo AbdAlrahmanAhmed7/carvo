@@ -1,3 +1,7 @@
+import sportsImg from "./assets/images/sports.png";
+import suvImg from "./assets/images/suv.png";
+import electricImg from "./assets/images/electric.png";
+
 export const CARS = [
   {
     id: 1,
@@ -10,7 +14,7 @@ export const CARS = [
       speed: "211 mph",
       acceleration: "2.9s"
     },
-    image: "/src/assets/images/sports_car_card_1779110434691.png"
+    image: sportsImg
   },
   {
     id: 2,
@@ -23,7 +27,7 @@ export const CARS = [
       speed: "155 mph",
       acceleration: "5.1s"
     },
-    image: "/src/assets/images/luxury_suv_card_1779110402333.png"
+    image: suvImg
   },
   {
     id: 3,
@@ -36,7 +40,7 @@ export const CARS = [
       speed: "200 mph",
       acceleration: "1.99s"
     },
-    image: "/src/assets/images/electric_car_card_1779110418898.png"
+    image: electricImg
   },
   {
     id: 4,

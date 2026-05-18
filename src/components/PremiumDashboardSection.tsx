@@ -1,6 +1,8 @@
 import { motion } from "motion/react";
 import { LayoutDashboard, Battery, Map, Settings, ShieldCheck, Activity } from "lucide-react";
 
+import suvImg from "../assets/images/suv.png";
+
 export default function PremiumDashboardSection() {
   return (
     <section className="py-32 container mx-auto px-6 overflow-hidden">
@@ -75,9 +77,8 @@ export default function PremiumDashboardSection() {
                   {/* Car Preview in Dash */}
                   <div className="relative h-48 rounded-[2rem] overflow-hidden group">
                      <img 
-                        src="/src/assets/images/luxury_suv_card_1779110402333.png" 
+                        src={suvImg} 
                         className="w-full h-full object-cover opacity-50 group-hover:scale-110 transition-transform duration-700" 
-                        referrerPolicy="no-referrer"
                      />
                      <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent" />
                      <div className="absolute bottom-6 left-6">
