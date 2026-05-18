@@ -1,0 +1,8 @@
+{
+  "name": "Carvo",
+  "description": "A premium, ultra-modern car rental platform featuring high-end automotive design, glassmorphism, and smooth cinematic animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
