@@ -1,6 +1,9 @@
 import sportsImg from "./assets/images/sports.png";
 import suvImg from "./assets/images/suv.png";
 import electricImg from "./assets/images/electric.png";
+import bugattiImg from "./assets/images/bugatti_chiron_render_1779198101617.png";
+import rollsImg from "./assets/images/rolls_royce_ghost_render_1779198119170.png";
+import porscheImg from "./assets/images/porsche_911_gt3_render_1779198136194.png";
 
 export const CARS = [
   {
@@ -44,29 +47,29 @@ export const CARS = [
   },
   {
     id: 4,
-    name: "Lamborghini Huracán",
+    name: "Bugatti Chiron",
     category: "Sports",
-    price: 1500,
+    price: 2500,
     specs: {
-      engine: "V10 Naturally Aspirated",
-      power: "631 HP",
-      speed: "202 mph",
-      acceleration: "3.2s"
+      engine: "W16 Quad-Turbo",
+      power: "1479 HP",
+      speed: "261 mph",
+      acceleration: "2.4s"
     },
-    image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?auto=format&fit=crop&q=80&w=1000"
+    image: bugattiImg
   },
   {
     id: 5,
-    name: "Bentley Continental GT",
+    name: "Rolls-Royce Ghost",
     category: "Luxury",
-    price: 800,
+    price: 1800,
     specs: {
-      engine: "W12 Twin-Turbo",
-      power: "626 HP",
-      speed: "207 mph",
-      acceleration: "3.6s"
+      engine: "V12 Twin-Turbo",
+      power: "563 HP",
+      speed: "155 mph",
+      acceleration: "4.6s"
     },
-    image: "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?auto=format&fit=crop&q=80&w=1000"
+    image: rollsImg
   },
   {
     id: 6,
@@ -79,7 +82,7 @@ export const CARS = [
       speed: "197 mph",
       acceleration: "3.2s"
     },
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=1000"
+    image: porscheImg
   }
 ];
 
